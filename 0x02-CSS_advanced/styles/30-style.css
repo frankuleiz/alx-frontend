@@ -725,10 +725,13 @@ s
 
 .card-work .card-title::after {
   position: absolute;
-  position: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
   opacity: 1;
 }
