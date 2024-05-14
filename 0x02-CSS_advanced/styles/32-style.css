@@ -465,6 +465,7 @@ a:active {
   border: var(--button-border);
   font-size: var(--button-font-size);
   color: var(--button-color);
+  transition: var(--transition-duration);
   text-decoration: var(--button-text-decoration);
 }
 
