@@ -521,6 +521,12 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 ul.row {
   margin: 0;
   padding: 0;
@@ -555,14 +561,4 @@ ul.row {
   text-align: right;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.col- {
-  float: left;
-  padding: 0.5rem;
-
-}
